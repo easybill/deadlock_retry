@@ -6,7 +6,8 @@ module DeadlockRetry
   DEADLOCK_ERROR_MESSAGES = [
     "Deadlock found when trying to get lock",
     "Lock wait timeout exceeded",
-    "deadlock detected"
+    "deadlock detected",
+    "detected deadlock"
   ]
 
   MAXIMUM_RETRIES_ON_DEADLOCK = 3
